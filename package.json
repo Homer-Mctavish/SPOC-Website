@@ -1,0 +1,24 @@
+{
+  "name": "spoc-direct",
+  "version": "1.0.0",
+  "description": "This is what will be the main directory for all the files\r for them to work together to make the website fluid",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.3.2",
+    "passport": "^0.5.2",
+    "passport-local-mongoose": "^7.0.0",
+    "python": "^0.0.4"
+  }
+}
